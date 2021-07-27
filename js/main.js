@@ -7,3 +7,14 @@ $(function () {
         prevArrow: '<button type="button" class="slick-arrow slick-next"></button>'
     });
 });
+new Swiper('.image-slider', {
+    navigation:{
+        nextEl:'.swiper-button-next',
+        prevEl:'.swiper-button-prev'
+    },
+    pagination:{
+        el:'.swiper-pagination',
+        clickable: true,
+    },
+    slidesPerView: 4,
+});
