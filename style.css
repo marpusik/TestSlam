@@ -1,0 +1,132 @@
+* {
+    font-family: 'HeliosC%20Regular', sans-serif;
+    font-size: 15px;
+}
+
+.header .container {
+    padding: 0 160px;
+}
+
+.nav {
+    background-color: #894083;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.nav__link, .personal-link {
+    color: #fff;
+}
+
+.nav__list, .personal__list, .personal-link, .header__inner, .favor__link, .inner__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__inner{
+    margin: 15px 0;
+}
+
+.nav__item {
+    padding: 10px 24px;
+}
+
+.nav__img {
+    padding-left: 10px;
+}
+
+.personal-img, .favor__img, .inner__img {
+    padding-right: 10px;
+}
+
+.inner__search {
+    padding: 20px 25px 20px 110px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    background-image: url(./img/search.svg);
+    background-repeat: no-repeat;
+    background-position: 25px 20px;
+    font-size: 17px;
+}
+
+.search__img {
+    padding-left: 400px;
+}
+
+.inner__counter {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    color: #fff;
+    background-color: #894083;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2;
+    font-size: 10px;
+}
+
+.inner__item {
+    position: relative;
+}
+.inner__txt{
+    max-width: 208px;
+    line-height: 22px;
+    text-align: center;
+    color: #c0bebe;
+}
+
+.main {
+    text-align: -webkit-center;
+}
+
+.reviews-slider {
+    align-self: flex-end;
+    max-width: 765px;
+}
+
+.review__text {
+    max-width: 765px;
+}
+
+.slick-arrow {
+    width: 56px;
+    height: 45px;
+    position: absolute;
+    z-index: 5;
+}
+
+.slick-next::before, .slick-prev:before, .review__author::before {
+    content: "";
+    display: block;
+    height: 100%;
+}
+.review__author{
+    position: relative;
+    display: block;
+    color: #fff;
+    bottom: 225px;
+}
+.review__author-name{
+    font-size: 64px;
+}
+.slick-next{
+    background: rgba(0, 0, 0, 0.03);
+    top: 130px;
+    right: 50px;
+}
+
+.slick-next::before {
+    background-image: url("./img/slick-next.svg");
+}
+
+.slick-prev {
+    top: 140px;
+    background: rgba(0, 0, 0, 0.03);
+    left: 50px;
+}
+
+.slick-prev:before {
+    background-image: url("./img/arrow.svg");
+}

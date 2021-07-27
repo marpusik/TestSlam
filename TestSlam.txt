@@ -1,0 +1,6 @@
+1. как .nav сделать  border-radius как на макете
+2. slick картинку на весь экран (https://www.youtube.com/watch?v=ItSsU5SFRSI)
+3. 2 слайдер сделать с помощью swiper (https://www.youtube.com/watch?v=ddbxsrGPRY0&t=3s)
+4. что значит 2 пункт ТЗ
+
+
